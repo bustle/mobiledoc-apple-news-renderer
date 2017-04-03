@@ -1,6 +1,6 @@
 {
-  "name": "mobiledoc-dom-renderer",
-  "version": "0.6.5",
+  "name": "mobiledoc-apple-news-renderer",
+  "version": "0.1.0",
   "description": "Renders Mobiledoc input to DOM output",
   "scripts": {
     "start": "broccoli serve",
@@ -42,5 +42,5 @@
     "simple-dom": "^0.3.2",
     "testem": "^1.15.0"
   },
-  "main": "dist/commonjs/mobiledoc-dom-renderer/index.js"
+  "main": "dist/commonjs/mobiledoc-apple-news-renderer/index.js"
 }

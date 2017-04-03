@@ -7,7 +7,7 @@ var testBuilder = require('broccoli-test-builder');
 var Funnel = require('broccoli-funnel');
 
 var options = {
-  packageName: 'mobiledoc-dom-renderer'
+  packageName: 'mobiledoc-apple-news-renderer'
 };
 
 var simpleDOMTree = new Funnel('node_modules/simple-dom/dist/', {
