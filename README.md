@@ -1,5 +1,7 @@
 ## Mobiledoc DOM Renderer [![Build Status](https://travis-ci.org/bustlelabs/mobiledoc-dom-renderer.svg?branch=master)](https://travis-ci.org/bustlelabs/mobiledoc-dom-renderer)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/bustlelabs/mobiledoc-apple-news-renderer.svg?token=1e4667d7d75ffe7b018d353b33d765a45dcbe799ccab057a21a7c94537f5d702)](https://greenkeeper.io/)
+
 This is a DOM renderer for the [Mobiledoc format](https://github.com/bustlelabs/mobiledoc-kit/blob/master/MOBILEDOC.md) used
 by [Mobiledoc-Kit](https://github.com/bustlelabs/mobiledoc-kit).
 
