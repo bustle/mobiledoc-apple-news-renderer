@@ -1,5 +1,5 @@
 {
-  "name": "mobiledoc-apple-news-renderer",
+  "name": "@bustle/mobiledoc-apple-news-renderer",
   "version": "0.1.0",
   "description": "Renders Mobiledoc input to DOM output",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bustlelabs/mobiledoc-dom-renderer"
+    "url": "https://github.com/bustlelabs/mobiledoc-apple-news-renderer"
   },
   "keywords": [
     "mobiledoc",
@@ -23,14 +23,14 @@
   "author": "Cory Forsyth <cory.forsyth@gmail.com> (http://coryforsyth.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bustlelabs/mobiledoc-dom-renderer/issues"
+    "url": "https://github.com/bustlelabs/mobiledoc-apple-news-renderer/issues"
   },
   "files": [
     "dist",
     "lib",
     "index.js"
   ],
-  "homepage": "https://github.com/bustlelabs/mobiledoc-dom-renderer",
+  "homepage": "https://github.com/bustlelabs/mobiledoc-apple-news-renderer",
   "devDependencies": {
     "broccoli": "^0.16.3",
     "broccoli-funnel": "^1.1.0",
@@ -42,5 +42,6 @@
     "simple-dom": "^0.3.2",
     "testem": "^1.15.0"
   },
-  "main": "dist/commonjs/mobiledoc-apple-news-renderer/index.js"
+  "main": "dist/commonjs/mobiledoc-apple-news-renderer/index.js",
+  "private": true
 }
