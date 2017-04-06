@@ -42,6 +42,5 @@
     "simple-dom": "^0.3.2",
     "testem": "^1.15.0"
   },
-  "main": "dist/commonjs/mobiledoc-apple-news-renderer/index.js",
-  "private": true
+  "main": "dist/commonjs/mobiledoc-apple-news-renderer/index.js"
 }
