@@ -788,4 +788,4 @@ export default {
 			]
 		]
 	]
-}
+};
