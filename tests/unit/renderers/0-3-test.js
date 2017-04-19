@@ -2,7 +2,6 @@
 
 import Renderer from 'mobiledoc-dom-renderer';
 import { RENDER_TYPE } from 'mobiledoc-dom-renderer';
-import ImageCard from 'mobiledoc-dom-renderer/cards/image';
 import {
   MARKUP_SECTION_TYPE,
   LIST_SECTION_TYPE,
@@ -170,30 +169,6 @@ test('renders a mobiledoc with image section', (assert) => {
                'renders 1 section');
   let sectionEl = rendered.firstChild;
 
-  assert.equal(sectionEl.src, dataUri);
-});
-
-test('renders a mobiledoc with built-in image card', (assert) => {
-  assert.expect(3);
-  let cardName = ImageCard.name;
-  let payload = { src: dataUri };
-  let mobiledoc = {
-    version: MOBILEDOC_VERSION_0_3_0,
-    atoms: [],
-    cards: [
-      [cardName, payload]
-    ],
-    markups: [],
-    sections: [
-      [CARD_SECTION_TYPE, 0]
-    ]
-  };
-  let { result: rendered } = renderer.render(mobiledoc);
-  assert.equal(childNodesLength(rendered), 1,
-               'renders 1 section');
-  let sectionEl = rendered.firstChild;
-
-  assert.equal(sectionEl.tagName, 'IMG');
   assert.equal(sectionEl.src, dataUri);
 });
 
