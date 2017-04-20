@@ -1,12 +1,16 @@
-const MOBILEDOC_VERSION_0_3_1 = '0.3.1';
+import {
+  MOBILEDOC_VERSION_0_3_0,
+  MOBILEDOC_VERSION_0_3_1
+} from 'mobiledoc-apple-news-renderer/utils/mobiledoc-versions';
+const MOBILEDOC_VERSION = MOBILEDOC_VERSION_0_3_1;
 import {
   MARKUP_SECTION_TYPE,
   CARD_SECTION_TYPE
-} from 'mobiledoc-dom-renderer/utils/section-types';
+} from 'mobiledoc-apple-news-renderer/utils/section-types';
 import {
   MARKUP_MARKER_TYPE,
   ATOM_MARKER_TYPE
-} from 'mobiledoc-dom-renderer/utils/marker-types';
+} from 'mobiledoc-apple-news-renderer/utils/marker-types';
 
 export function createBlankMobiledoc({version=MOBILEDOC_VERSION_0_3_1}={}) {
   return {
