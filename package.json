@@ -18,7 +18,8 @@
   "keywords": [
     "mobiledoc",
     "mobiledoc-renderer",
-    "content-kit"
+    "content-kit",
+    "apple-news"
   ],
   "author": "Cory Forsyth <cory.forsyth@gmail.com> (http://coryforsyth.com/)",
   "license": "MIT",
