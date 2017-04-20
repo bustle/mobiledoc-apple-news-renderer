@@ -56,6 +56,15 @@ let article = rendered.result;
  */
 ```
 
+### Running tests
+
+In browser:
+  * `npm start`
+  * visit http://localhost:4200/tests
+
+CI:
+  * `npm test`
+
 ### Publishing
 
 Before publishing run `npm run build` to generate the transpiled files in
