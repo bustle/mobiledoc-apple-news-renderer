@@ -1,6 +1,6 @@
 {
   "name": "@bustle/mobiledoc-apple-news-renderer",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Renders Mobiledoc input to DOM output",
   "scripts": {
     "start": "broccoli serve",
