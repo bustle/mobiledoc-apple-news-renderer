@@ -128,3 +128,10 @@ test('mobiledoc with cards throws on invalid return value', function(assert) {
     let rendered = render(mobiledoc, {cards: [card]}); // jshint ignore:line
   }, /"role" property/);
 });
+
+test('mobiledoc with empty section is not included in Apple News output', function(assert) {
+  let mobiledoc = createSimpleMobiledoc({text: ''});
+  let rendered = render(mobiledoc);
+  let { result: { components } } = rendered;
+  assert.equal(components.length, 0, 'empty section is not included in component output');
+});
