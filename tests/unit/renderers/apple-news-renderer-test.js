@@ -135,3 +135,10 @@ test('mobiledoc with empty section is not included in Apple News output', functi
   let { result: { components } } = rendered;
   assert.equal(components.length, 0, 'empty section is not included in component output');
 });
+
+test('mobiledoc with blank string is not included in Apple News output', function(assert) {
+  let mobiledoc = createSimpleMobiledoc({text: '   '});
+  let rendered = render(mobiledoc);
+  let { result: { components } } = rendered;
+  assert.equal(components.length, 0, 'empty section is not included in component output');
+});
