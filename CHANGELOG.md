@@ -1,12 +1,14 @@
-<a name="0.3.3"></a>
-## 0.3.3 (2017-10-09)
+<a name="0.3.4"></a>
+## <small>0.3.4 (2019-04-12)</small>
 
+* 0.3.3 ([7f23ed3](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/7f23ed3))
+* Adds list sections and list items renderer ([df66fd8](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/df66fd8))
 * Trim html to account for empty string sections ([5982153](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/5982153))
 
 
 
 <a name="0.3.2"></a>
-## 0.3.2 (2017-06-30)
+## <small>0.3.2 (2017-06-30)</small>
 
 * remove unused test files ([c07df08](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/c07df08))
 * Skip empty sections when rendering Apple News components ([d759ac9](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/d759ac9))
@@ -16,7 +18,7 @@
 
 
 <a name="0.3.1"></a>
-## 0.3.1 (2017-04-20)
+## <small>0.3.1 (2017-04-20)</small>
 
 * Fix tests ([4e1dbf8](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/4e1dbf8))
 * fix tests in phantom ([629bdeb](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/629bdeb))
@@ -26,7 +28,7 @@
 
 
 <a name="0.3.0"></a>
-# 0.3.0 (2017-04-20)
+## 0.3.0 (2017-04-20)
 
 * return a full article from `render` ([6719fbf](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/6719fbf))
 * use Object.assign instead of spread ([206e85e](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/206e85e))
@@ -35,7 +37,7 @@
 
 
 <a name="0.2.0"></a>
-# 0.2.0 (2017-04-19)
+## 0.2.0 (2017-04-19)
 
 * [bugfix] Pass dom, isInEditor args to atoms ([6c98424](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/6c98424))
 * [docs] minor change to release process in readme ([b637a47](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/b637a47))
@@ -81,7 +83,7 @@
 * add "files" to package.json ([268841e](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/268841e))
 * Add a default image card implementation ([58adcf1](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/58adcf1))
 * Add a main definition for ember-addon ([31b7991](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/31b7991))
-* Add a markup renderer option (#32) ([a368f34](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/a368f34))
+* Add a markup renderer option (#32) ([a368f34](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/a368f34)), closes [#32](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/issues/32)
 * add AN Renderer ([e43b883](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/e43b883))
 * Add cards to README ([109730f](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/109730f))
 * Add dom option for renderer, SimpleDOM tests ([0ed823b](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/0ed823b))
@@ -101,7 +103,7 @@
 * Cover edge case. ([eb1a0d6](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/eb1a0d6))
 * Create section element with correct args ([6f8df27](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/6f8df27))
 * Do not share state when rendering ([b51510e](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/b51510e)), closes [#11](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/issues/11)
-* Document markup renderer (#33) ([2614b4e](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/2614b4e))
+* Document markup renderer (#33) ([2614b4e](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/2614b4e)), closes [#33](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/issues/33)
 * Document rendering HTML ([2d2a8f7](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/2d2a8f7))
 * export ANRenderer from index ([f557cac](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/f557cac))
 * Fix bad utils path and test ([3305634](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/3305634))
@@ -135,7 +137,7 @@
 * Render multiple spaces with nbsps to preserve whitespaces ([95c1719](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/95c1719)), closes [#8](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/issues/8)
 * Render pull-quote as <div class="pull-quote" ([638f46d](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/638f46d)), closes [#26](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/issues/26)
 * Render with version ([0e1f645](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/0e1f645))
-* Revert usage of glimmer/build for building (for now) (#46) ([c23676a](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/c23676a))
+* Revert usage of glimmer/build for building (for now) (#46) ([c23676a](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/c23676a)), closes [#46](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/issues/46)
 * run travis ([eff2cd0](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/eff2cd0))
 * Support didRender for latest mobiledoc-kit ([70929c6](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/70929c6))
 * Throw on Unexpected mobiledoc version ([858239d](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/858239d)), closes [#13](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/issues/13)
@@ -144,36 +146,36 @@
 * Tweak README ([c6a8155](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/c6a8155))
 * Tweak README ([d8064ae](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/d8064ae))
 * update brocfile ([5651e94](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/5651e94))
-* Update changelog ([78b27a3](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/78b27a3))
 * Update changelog ([1505a05](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/1505a05))
-* Update changelog ([7f942c6](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/7f942c6))
-* Update changelog ([85c42e9](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/85c42e9))
 * Update changelog ([72ed2a5](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/72ed2a5))
+* Update changelog ([85c42e9](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/85c42e9))
+* Update changelog ([78b27a3](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/78b27a3))
+* Update changelog ([7f942c6](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/7f942c6))
 * update conventional-changelog dep and change release steps in readme ([6fd519c](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/6fd519c))
 * Update mobiledoc version example to 0.3.0 ([22f2de3](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/22f2de3))
 * update package.json ([888573b](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/888573b))
 * update readme w/ publish notes ([e55a492](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/e55a492))
-* Update README.md ([caf23f3](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/caf23f3))
-* Update README.md ([f26ee5d](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/f26ee5d))
 * Update README.md ([60aa048](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/60aa048))
+* Update README.md ([f26ee5d](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/f26ee5d))
+* Update README.md ([caf23f3](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/caf23f3))
 * Update release instructions to use `np` ([014de03](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/014de03))
 * update renderer to accept options ([0b66b0d](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/0b66b0d))
 * Update to use yarn ([e46b453](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/e46b453))
-* use forked glimmer-build without babel helpers (#45) ([f9882db](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/f9882db))
-* Use glimmer build (#40) ([8b82854](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/8b82854))
+* use forked glimmer-build without babel helpers (#45) ([f9882db](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/f9882db)), closes [#45](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/issues/45)
+* Use glimmer build (#40) ([8b82854](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/8b82854)), closes [#40](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/issues/40)
 * Use strict in brocfile ([bba53ff](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/bba53ff))
 * use testem ([cf12376](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/cf12376))
-* use typeof check (#42) ([2170c2b](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/2170c2b)), closes [#41](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/issues/41)
+* use typeof check (#42) ([2170c2b](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/2170c2b)), closes [#42](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/issues/42) [#41](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/issues/41)
 * v0.1.1 ([f74e486](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/f74e486))
 * v0.2.0 ([10238d8](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/10238d8))
 * v0.4.0-beta1 ([4fc9c2d](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/4fc9c2d))
 * v0.5.0 ([e878ad5](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/e878ad5))
 * v0.5.1 ([5ddbf4c](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/5ddbf4c))
 * Whitelist tag names for sections, marker types ([c693ed8](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/c693ed8))
-* fix(href-sanitization): Accept markupSanitizer option, downcase tagName and attributeName (#50) ([aa1aedc](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/aa1aedc)), closes [#49](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/issues/49) [#48](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/issues/48)
-* fix(href-sanitization): Improve protocol detection for href sanitization (#53) ([a91b257](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/a91b257))
-* chore(markupSanitizer): Remove markupSanitizer in favor of markupElementRenderer (#51) ([8f359af](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/8f359af))
-* chore(scripts): Use version instead of postversion npm script (#36) ([17e35de](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/17e35de))
+* fix(href-sanitization): Accept markupSanitizer option, downcase tagName and attributeName (#50) ([aa1aedc](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/aa1aedc)), closes [#50](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/issues/50) [#49](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/issues/49) [#48](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/issues/48)
+* fix(href-sanitization): Improve protocol detection for href sanitization (#53) ([a91b257](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/a91b257)), closes [#53](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/issues/53)
+* chore(markupSanitizer): Remove markupSanitizer in favor of markupElementRenderer (#51) ([8f359af](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/8f359af)), closes [#51](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/issues/51)
+* chore(scripts): Use version instead of postversion npm script (#36) ([17e35de](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/17e35de)), closes [#36](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/issues/36)
 
 
 
