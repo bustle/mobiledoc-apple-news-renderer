@@ -1,8 +1,10 @@
-<a name="0.3.4"></a>
-## <small>0.3.4 (2019-04-12)</small>
+<a name="0.3.5"></a>
+## <small>0.3.5 (2019-04-12)</small>
 
 * 0.3.3 ([7f23ed3](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/7f23ed3))
+* 0.3.4 ([0103fb8](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/0103fb8))
 * Adds list sections and list items renderer ([df66fd8](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/df66fd8))
+* Creates wrapper 'p' to match other section types ([2a2a55f](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/2a2a55f))
 * Trim html to account for empty string sections ([5982153](https://github.com/bustlelabs/mobiledoc-apple-news-renderer/commit/5982153))
 
 
